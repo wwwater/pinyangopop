@@ -1,0 +1,21 @@
+#Music {
+  padding: 50px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.song {
+
+}
+
+a.song:link, a.song:visited, a.song:active {
+  color: orange;
+}
+
+/* mouse over link */
+a.song:hover {
+  color: grey;
+}

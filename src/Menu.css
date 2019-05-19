@@ -1,0 +1,14 @@
+#Menu {
+  position: fixed;
+  top: 0;
+  background: black;
+}
+
+a.nav-link:link, a.nav-link:visited, a.nav-link:active {
+  color: purple;
+}
+
+/* mouse over link */
+a.nav-link:hover {
+  color: violet;
+}
