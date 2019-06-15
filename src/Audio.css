@@ -1,14 +1,6 @@
-#Music {
-  padding: 50px;
-  height: 800px;
+.audio {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.song {
-
 }
 
 a.song:link, a.song:visited, a.song:active {

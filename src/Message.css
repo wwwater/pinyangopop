@@ -1,0 +1,71 @@
+.message {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  max-width: 80%;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.message-box-tail {
+  height: 0;
+  width: 0;
+  border-bottom: 20px solid transparent;
+}
+
+.right-side-message {
+  align-self: flex-end;
+}
+
+.right-side-message .message-box-tail {
+  border-left: 20px solid #dcf8c6;
+  margin-left: -5px;
+}
+
+.right-side-message .message-box {
+  background: #dcf8c6;
+}
+
+.left-side-message {
+  align-self: flex-start;
+}
+
+.left-side-message .message-box-tail {
+  border-right: 20px solid white;
+  margin-right: -5px;
+}
+
+.left-side-message .message-box {
+  background: white;
+}
+
+.message-box .jushepe {
+  color: purple;
+}
+
+.message-box .eneko {
+  color: orange;
+}
+
+.message-box .xavier {
+  color: green;
+}
+
+.message-box .other {
+  color: #555;
+}
+
+.message-author {
+  font-size: 14px;
+}
+
+.message-date {
+  align-self: flex-end;
+  font-size: 10px;
+  color: #777;
+}
