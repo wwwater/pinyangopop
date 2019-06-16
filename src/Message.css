@@ -44,22 +44,6 @@
   background: white;
 }
 
-.message-box .jushepe {
-  color: purple;
-}
-
-.message-box .eneko {
-  color: orange;
-}
-
-.message-box .xavier {
-  color: green;
-}
-
-.message-box .other {
-  color: #555;
-}
-
 .message-author {
   font-size: 14px;
 }

@@ -1,14 +1,71 @@
 #Menu {
+  display: flex;
+  width: 200px;
+  padding: 20px;
+  background: white;
+  user-select: none;
+  box-shadow: -1px 1px 5px 0 #aaa;
+  border-radius: 2px;
+}
+
+.menu-items {
   position: fixed;
-  top: 0;
-  background: black;
+  list-style: none;
+  width: 200px;
+  padding: 0;
 }
 
-a.nav-link:link, a.nav-link:visited, a.nav-link:active {
-  color: purple;
+.menu-item {
+  align-items: center;
+  background: white;
 }
 
-/* mouse over link */
-a.nav-link:hover {
-  color: violet;
+.menu-item:hover {
+  background: #eee;
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  flex-grow: 1
+}
+
+.menu-text-author {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.menu-text-message {
+  padding: 5px 10px;
+}
+
+a.menu-link:link, a.menu-link:visited, a.menu-link:active, a.menu-link:hover {
+  color: black;
+}
+
+.userpick {
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  border-radius: 25px;
+}
+
+.userpick-eneko {
+  background-image: url("./assets/eneko.jpeg");
+}
+
+.userpick-jushepe {
+  background-image: url("./assets/jushepe.jpeg");
+}
+
+.userpick-xavier {
+  background-image: url("./assets/xavier.jpeg");
 }

@@ -1,13 +1,15 @@
-.App {
+#App {
   color: black;
   display: flex;
   flex-direction: row;
   justify-content: center;
   min-height: 100vh;
+  background: #eee;
+  padding: 10px;
 }
 
 .background {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   background: #4b4b4b;
@@ -17,12 +19,15 @@
 }
 
 .content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 800px;
   justify-content: flex-start;
-  padding: 10px;
+  z-index: 1;
+  box-shadow: 1px 1px 5px 0 #aaa;
+  border-radius: 2px;
 }
 
 
@@ -30,4 +35,36 @@
   .content {
     max-width: 100vw;
   }
+  #App {
+    padding: 0 !important;
+  }
+  #Menu {
+    width: 0 !important;
+    height: 0;
+    padding: 0 !important;
+    opacity: 0;
+    z-index: -100;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .content {
+    width: 600px;
+  }
+}
+
+.jushepe {
+  color: purple;
+}
+
+.eneko {
+  color: orange;
+}
+
+.xavier {
+  color: green;
+}
+
+.other {
+  color: #555;
 }
