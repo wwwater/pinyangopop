@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import './Message.css';
 
+// <div className="message-date">
+// {this.props.date}
+// </div>
 class Message extends Component {
   render() {
-    if (this.props.author === "viewer") {
+    if (this.props.author === "Jushepe") {
       return (
         <div className="message right-side-message">
           <div className="message-box">
+            <div className={"message-author " + authorClass(this.props.author)}>
+            {this.props.author}
+            </div>
             <div className="message-content">
               {this.props.content}
-            </div>
-            <div className="message-date">
-              {this.props.date}
             </div>
           </div>
           <div className="message-box-tail">
@@ -30,9 +33,6 @@ class Message extends Component {
             <div className="message-content">
               {this.props.content}
             </div>
-            <div className="message-date">
-            {this.props.date}
-            </div>
           </div>
         </div>
       );
@@ -44,7 +44,7 @@ function authorClass(author) {
   switch (author) {
     case "Jushepe":
       return "jushepe";
-    case "Eneko":
+    case "Keko":
       return "eneko";
     case "Ñango":
       return "xavier";

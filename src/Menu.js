@@ -11,16 +11,7 @@ class Menu extends Component {
               <div className="userpick userpick-jushepe"></div>
               <div className="menu-text">
                 <div className="menu-text-author jushepe">Jushepe</div>
-                <div className="menu-text-message">Quien somos?</div>
-              </div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a className="menu-link" href="#Video">
-              <div className="userpick userpick-eneko"></div>
-              <div className="menu-text">
-                <div className="menu-text-author eneko">Eneko</div>
-                <div className="menu-text-message">Videos</div>
+                <div className="menu-text-message">Bio</div>
               </div>
             </a>
           </li>
@@ -28,8 +19,17 @@ class Menu extends Component {
             <a className="menu-link" href="#Music">
               <div className="userpick userpick-xavier"></div>
               <div className="menu-text">
-                <div className="menu-text-author xavier">Ñango</div>
+                <div className="menu-text-author xavier">Keko</div>
                 <div className="menu-text-message">Musica</div>
+              </div>
+            </a>
+          </li>
+          <li className="menu-item">
+            <a className="menu-link" href="#Video">
+              <div className="userpick userpick-eneko"></div>
+              <div className="menu-text">
+                <div className="menu-text-author eneko">Ñango</div>
+                <div className="menu-text-message">Videos</div>
               </div>
             </a>
           </li>
