@@ -1,0 +1,47 @@
+.preview {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.preview-image {
+  width: 70px;
+  height: 70px;
+  background-size: 70px;
+  min-width: 70px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.preview-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.preview-content-title {
+
+}
+
+.preview-content-text {
+  color: #777;
+  font-size: 14px;
+}
+
+.preview-url {
+  font-size: 14px;
+}
+
+.pizza {
+  background-image: url("./assets/pizza.png");
+}
+
+.flames {
+  background-image: url("./assets/flames.png");
+}
+
+.flames-instagram {
+  background-image: url("./assets/flames_instagram.png");
+}

@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+audio {
+  max-width: 250px;
+}
+
 a.song:link, a.song:visited, a.song:active {
   color: orange;
 }

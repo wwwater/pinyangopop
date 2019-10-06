@@ -33,7 +33,15 @@ class Menu extends Component {
               </div>
             </a>
           </li>
-
+          <li className="menu-item">
+            <a className="menu-link" href="#Social-networks">
+              <div className="userpick userpick-eneko"></div>
+              <div className="menu-text">
+                <div className="menu-text-author eneko">Keko</div>
+                <div className="menu-text-message">Social</div>
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     );

@@ -5,6 +5,12 @@
   max-width: 80%;
 }
 
+@media (max-width: 800px) {
+  .message {
+    max-width: 90%;
+  }
+}
+
 .message-box {
   display: flex;
   flex-direction: column;
@@ -23,12 +29,12 @@
 }
 
 .right-side-message .message-box-tail {
-  border-left: 20px solid #dcf8c6;
+  border-left: 20px solid #ddf7c8;
   margin-left: -5px;
 }
 
 .right-side-message .message-box {
-  background: #dcf8c6;
+  background: #daf8c4;
 }
 
 .left-side-message {
