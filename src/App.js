@@ -2,18 +2,19 @@ import React from 'react';
 import './App.css';
 
 import Menu    from './Menu';
+import DateMessage from './DateMessage';
 import Message from './Message';
 import Video   from './Video';
 import Audio   from './Audio';
 
 function App() {
   var messages = [
-    // 17 aug
-      ["Jushepe", "13:46", "Kaixo peña!" ]
+      ["17/08/2019"]
+    , ["Jushepe", "13:46", "Kaixo peña!" ]
     , ["Ñango",   "14:22", "heeey Jush" ]
     , ["Keko",    "18:01", "Perdona peña que estaba liado, di Jush" ]
     , ["Jushepe", "18:13", "A ver, tenemos que ponernos con la web. He pensado que primero podíamos pensar entre los 3 las secciones que habría que poner" ]
-    // 20 aug - 3 days later
+    , ["20/08/2019"]
     , ["Jushepe", "10:31", "hola" ]
     , ["Keko",    "10:56", "ostia, parkatu mil, tio, se me fue la olla el otro día. A ver, yo creo que lo primero sería ver que secciones vamos a poner. Yo propongo: Bio, lanzamientos, videos, links a merchan, y a RRSS. Que os parece?" ]
     , ["Jushepe", "10:31", "A mi me parece way" ]
@@ -66,13 +67,18 @@ function App() {
       <div className="content">
         <div className="background">
         </div>
-        {messages.map((message, i) =>
-          <Message
-            key={i}
-            author={message[0]}
-            date={message[1]}
-            content={message[2]}/>
-        )}
+        {messages.map((message, i) => {
+          if (message.length === 1) {
+            return <DateMessage date={message[0]} />
+          } else {
+            return <Message
+              key={i}
+              author={message[0]}
+              date={message[1]}
+              content={message[2]}/>
+          }
+        }
+      )}
       </div>
     </div>
   );
