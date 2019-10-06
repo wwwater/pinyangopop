@@ -31,7 +31,10 @@ function App() {
     , ["Keko",    "11:18", "jajajajajaja" ]
     , ["Ñango",   "11:23", "abrá q poner los discos tb Xdddd" ]
     , ["Keko",    "11:27", "\"discos\" tenemos uno. \"El de la Pizza\"" ]
-    , ["Keko",    "11:28", <div className="disc-links"><a href="https://pinangopop.bandcamp.com/album/el-de-la-pizza"><div className="bandcamp"></div></a> <a href="https://open.spotify.com/album/6010KNCEaYPAikrL3kgqGp?si=kVvzK-IaS-qYzfa4St44XA"><div className="spotify"></div></a></div> ]
+    , ["Keko",    "11:28", <div className="disc-links">
+                            <a href="https://pinangopop.bandcamp.com/album/el-de-la-pizza"><div className="bandcamp"></div></a>
+                            <a href="https://open.spotify.com/album/6010KNCEaYPAikrL3kgqGp?si=kVvzK-IaS-qYzfa4St44XA"><div className="spotify"></div></a>
+                          </div> ]
     , ["Jushepe", "11:33", "Yo pondría el EP con Medina tb" ]
     , ["Ñango",   "11:35", "va" ]
     , ["Keko",    "11:35", "Perfe" ]
