@@ -7,21 +7,21 @@ class Preview extends Component {
   render() {
     return (
       <div>
-        <div className="preview">
-          <div className={"preview-image " + this.props.image}>
-          </div>
-          <div className="preview-content">
-            <div className="preview-content-title">
-              {this.props.title}
-            </div>
-            <div className="preview-content-text">
-              {this.props.text}
-            </div>
-          </div>
-        </div>
-        <a className="preview-url" href={this.props.url}
+        <a className="preview" href={this.props.url}
             target="_blank" rel="noopener noreferrer">
-          {displayLink(this.props.url)}
+          <div className="preview-header">
+            <div className={"preview-image " + this.props.image}>
+            </div>
+            <div className="preview-content">
+              <div className="preview-content-title">
+                {this.props.title}
+              </div>
+              <div className="preview-content-text">
+                {this.props.text}
+              </div>
+            </div>
+          </div>
+          <div className="preview-url">{displayLink(this.props.url)}</div>
         </a>
       </div>
     );
@@ -29,7 +29,7 @@ class Preview extends Component {
 }
 
 function displayLink(url) {
-  var maxLen = 70;
+  var maxLen = 60;
   var ellipsis = "";
   if (url.length > maxLen) {
     ellipsis = "..."

@@ -90,7 +90,7 @@ function App() {
         </div>
         {messages.map((message, i) => {
           if (message.length === 1) {
-            return <DateMessage date={message[0]} />
+            return <DateMessage key={i} date={message[0]} />
           } else {
             return <Message
               key={i}

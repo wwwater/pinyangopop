@@ -1,4 +1,9 @@
 .preview {
+  color: black;
+  text-decoration: none;
+}
+
+.preview-header {
   display: flex;
   flex-direction: row;
   border-radius: 5px;
@@ -32,6 +37,8 @@
 
 .preview-url {
   font-size: 14px;
+  color: blue;
+  text-decoration: underline;
 }
 
 .pizza {
