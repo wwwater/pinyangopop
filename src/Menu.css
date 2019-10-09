@@ -6,6 +6,8 @@
   user-select: none;
   box-shadow: -1px 1px 5px 0 #aaa;
   border-radius: 2px;
+  margin-right: -1px;
+  z-index: 10;
 }
 
 .menu-items {
