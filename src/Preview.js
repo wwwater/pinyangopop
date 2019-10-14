@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Preview.css';
 
+
+// TODO make whole preview the link
 class Preview extends Component {
   render() {
     return (
@@ -17,7 +19,10 @@ class Preview extends Component {
             </div>
           </div>
         </div>
-        <a className="preview-url" href={this.props.url}>{displayLink(this.props.url)}</a>
+        <a className="preview-url" href={this.props.url}
+            target="_blank" rel="noopener noreferrer">
+          {displayLink(this.props.url)}
+        </a>
       </div>
     );
   }

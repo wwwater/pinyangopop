@@ -42,6 +42,15 @@ class Menu extends Component {
               </div>
             </a>
           </li>
+          <li className="menu-item">
+            <a className="menu-link" href="/shop.html">
+              <div className="userpick userpick-jushepe"></div>
+              <div className="menu-text">
+                <div className="menu-text-author jushepe">Jushepe</div>
+                <div className="menu-text-message">Tienda</div>
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     );

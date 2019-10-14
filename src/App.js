@@ -74,7 +74,7 @@ function App() {
                                     url="https://www.facebook.com/Pi%C3%B1ango-Pop-2200920556815701/" /> ]
     , ["Keko",    "12:08", "y lo del MERCHAN" ]
     , ["Jushepe", "12:09", "Ostia es verdad. Como era la página??" ]
-    , ["Keko",    "12:10", "(links a merchan)" ]
+    , ["Keko",    "12:10", <a href="/shop.html" target="_blank" rel="noopener noreferrer">Tienda</a> ]
     , ["Ñango",   "12:13", <div className="joke-simpsons"></div> ]
     , ["Keko",    "12:13", "😂😂😂😂" ]
     , ["Jushepe", "12:13", "🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣" ]
