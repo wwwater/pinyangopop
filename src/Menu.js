@@ -43,7 +43,8 @@ class Menu extends Component {
             </a>
           </li>
           <li className="menu-item">
-            <a className="menu-link" href="/shop.html">
+            <a className="menu-link" href="/shop.html"
+                target="_blank" rel="noopener noreferrer">
               <div className="userpick userpick-jushepe"></div>
               <div className="menu-text">
                 <div className="menu-text-author jushepe">Jushepe</div>
