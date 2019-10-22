@@ -21,7 +21,7 @@ function App() {
     , ["Jushepe", "10:31", "A mi me parece way" ]
     , ["Ñango",   "10:31", "a mi tbb" ]
     , ["Jushepe", "10:38", "Yo tengo esta bio escrita, a ver que te parece:" ]
-    , ["Jushepe", "10:39", <div id="About"><Audio title="Bio" url="https://archive.org/download/testmp3testfile/mpthreetest.mp3" /></div>  ]
+    , ["Jushepe", "10:39", <div id="About"><Audio title="Bio" url="procrastinate.mp3" /></div>  ]
     , ["Keko",    "10:45", "Por mi guay" ]
     , ["Jushepe", "10:58", "Ñango?" ]
     , ["Ñango",   "11:09", "Palanteeeee" ]
