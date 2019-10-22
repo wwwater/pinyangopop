@@ -21,7 +21,9 @@ class Preview extends Component {
               </div>
             </div>
           </div>
-          <div className="preview-url">{displayLink(this.props.url)}</div>
+          <div className="preview-url">
+            {this.props.displayText || displayLink(this.props.url)}
+          </div>
         </a>
       </div>
     );
